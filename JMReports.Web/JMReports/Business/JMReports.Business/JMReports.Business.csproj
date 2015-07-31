@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JMReports.Business</RootNamespace>
+    <AssemblyName>JMReports.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountComponent.cs" />
+    <Compile Include="BanquetMarketReportComponent.cs" />
+    <Compile Include="DailyReportComponent.cs" />
+    <Compile Include="DataImportComponent.cs" />
+    <Compile Include="ForecastComponent.cs" />
+    <Compile Include="HotelComponent.cs" />
+    <Compile Include="HotelWholeReportComponent.cs" />
+    <Compile Include="MyIdentity.cs" />
+    <Compile Include="MyPrincipal.cs" />
+    <Compile Include="OperationReportComponent.cs" />
+    <Compile Include="OtherBusinessReportComponent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportInfoComponent.cs" />
+    <Compile Include="RestaurantComponent.cs" />
+    <Compile Include="RoleComponent.cs" />
+    <Compile Include="RoomCompeteComponent.cs" />
+    <Compile Include="RoomEfficiencyComponent.cs" />
+    <Compile Include="RoomMarketReportComponent.cs" />
+    <Compile Include="RoomSalesReportComponent.cs" />
+    <Compile Include="SpecialReportComponent.cs" />
+    <Compile Include="UnallocateReportComponent.cs" />
+    <Compile Include="UserComponent.cs" />
+    <Compile Include="UserHotelComponent.cs" />
+    <Compile Include="Util_XLS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DAL\JMReports.DAL\JMReports.DAL.csproj">
+      <Project>{7A776C42-6893-4CA0-AD95-C6752D066B90}</Project>
+      <Name>JMReports.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Entities\JMReports.Entities\JMReports.Entities.csproj">
+      <Project>{a8eb2859-80be-44ab-a4f7-90ce7a21c498}</Project>
+      <Name>JMReports.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

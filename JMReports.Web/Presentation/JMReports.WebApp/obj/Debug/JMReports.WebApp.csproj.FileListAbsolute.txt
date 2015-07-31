@@ -1,0 +1,74 @@
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport.rdlc
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2_JW.rdlc
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport_SH.rdlc
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2.rdlc
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Special\SpecialReport.rdlc
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.dll.config
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.dll
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.pdb
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Business.dll
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Entities.dll
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Data.dll
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Business.pdb
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Entities.pdb
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Data.pdb
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.csprojResolveAssemblyReference.cache
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\RdlCompile.cache
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\RdlCompile.compiled
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.dll
+C:\Users\sonshuan\My Project\金茂酒店管理系统\SourceCode\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.pdb
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport.rdlc
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2_JW.rdlc
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport_SH.rdlc
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2.rdlc
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Special\SpecialReport.rdlc
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.pdb
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Business.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Entities.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.LinqToSql.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Data.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Business.pdb
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Entities.pdb
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.LinqToSql.pdb
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Data.pdb
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.csprojResolveAssemblyReference.cache
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\RdlCompile.cache
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\RdlCompile.compiled
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.dll
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.pdb
+C:\Project\Jinmao\Code\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2_KY.rdlc
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport.rdlc
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport_SH.rdlc
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2_JW.rdlc
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2.rdlc
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\RoomMarket\RoomMarketReport2_KY.rdlc
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Special\SpecialReport.rdlc
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.dll.config
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.WebApp.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Business.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Entities.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.LinqToSql.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Data.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Business.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Entities.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.LinqToSql.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\JMReports.Data.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.csprojResolveAssemblyReference.cache
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\RdlCompile.cache
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\RdlCompile.compiled
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Presentation\JMReports.WebApp\obj\Debug\JMReports.WebApp.pdb

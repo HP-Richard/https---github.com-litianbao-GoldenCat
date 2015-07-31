@@ -1,0 +1,4 @@
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\bin\JMReports.Entities.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\bin\JMReports.Entities.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Entities\JMReports.Entities\obj\Debug\JMReports.Entities.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Entities\JMReports.Entities\obj\Debug\JMReports.Entities.pdb

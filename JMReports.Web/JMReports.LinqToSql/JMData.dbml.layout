@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.125, 8.5" name="JMData">
+  <DataContextMoniker Name="/JMDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3b63c3b7-4703-464c-a5fa-08cfa588a3e8" absoluteBounds="3, 2.25, 2, 2.1228255208333335">
+      <DataClassMoniker Name="/JMDataContext/SysUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f5888b8-3ad7-430b-a3b3-c1ad4c74376c" absoluteBounds="3.0149999999999997, 2.71, 1.9700000000000002, 1.5628255208333335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="38df2816-db9a-4153-993b-4acee2b35442" absoluteBounds="8.875, 0.5, 2, 3.1345442708333331">
+      <DataClassMoniker Name="/JMDataContext/Hotel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b1545ba-5af4-4bcc-8d75-1e2effdb9e5f" absoluteBounds="8.89, 0.96, 1.9700000000000002, 2.574544270833333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c3b5abc4-6d39-4445-bb7a-240011149736" absoluteBounds="3, 0.625, 2, 1.2797265625">
+      <DataClassMoniker Name="/JMDataContext/ImportReport" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fc1525f-c4a0-455b-9e51-b840dc6dedee" absoluteBounds="3.0149999999999997, 1.085, 1.9700000000000002, 0.7197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ce56d41-fb3e-4021-82de-83a15f3bb158" absoluteBounds="8.875, 4.375, 2, 2.2914453125">
+      <DataClassMoniker Name="/JMDataContext/ImportCompletedEmailNoticeStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2336bd2d-128d-416c-95ea-6671dd11f2bc" absoluteBounds="8.89, 4.835, 1.9700000000000002, 1.7314453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.9062525 : 3.63454427083333); (9.9062525 : 4.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/JMDataContext/Hotel/Hotel_ImportCompletedEmailNoticeStatus" />
+      <nodes>
+        <classShapeMoniker Id="38df2816-db9a-4153-993b-4acee2b35442" />
+        <classShapeMoniker Id="6ce56d41-fb3e-4021-82de-83a15f3bb158" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a5cece91-b137-4b77-9095-ebee67bcc703" absoluteBounds="6.125, 4.25, 2, 2.6286848958333331">
+      <DataClassMoniker Name="/JMDataContext/DataImportTracking" />
+      <nestedChildShapes>
+        <elementListCompartment Id="896fba77-fd4e-4bc7-abe5-ade169e41d75" absoluteBounds="6.14, 4.71, 1.9700000000000002, 2.068684895833333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.875 : 3.63454427083333); (8.5 : 4.00954427083333); (8.5 : 5.56434244791667); (8.125 : 5.56434244791667)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JMDataContext/Hotel/Hotel_DataImportTracking" />
+      <nodes>
+        <classShapeMoniker Id="38df2816-db9a-4153-993b-4acee2b35442" />
+        <classShapeMoniker Id="a5cece91-b137-4b77-9095-ebee67bcc703" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.96875 : 4.37282552083333); (4.96875 : 4.68641526041667); (6.125 : 4.68641526041667)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JMDataContext/SysUser/SysUser_DataImportTracking" />
+      <nodes>
+        <classShapeMoniker Id="3b63c3b7-4703-464c-a5fa-08cfa588a3e8" />
+        <classShapeMoniker Id="a5cece91-b137-4b77-9095-ebee67bcc703" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5a6d6f0d-6fa7-487d-812d-d5570450ced5" absoluteBounds="6.125, 0.625, 2, 2.4600651041666666">
+      <DataClassMoniker Name="/JMDataContext/DataImportBudgetTracking" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab0ed414-6d09-4732-b6aa-88a65676a701" absoluteBounds="6.14, 1.085, 1.9700000000000002, 1.9000651041666665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.875 : 1.85503255208333); (8.125 : 1.85503255208333)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JMDataContext/Hotel/Hotel_DataImportBudgetTracking" />
+      <nodes>
+        <classShapeMoniker Id="38df2816-db9a-4153-993b-4acee2b35442" />
+        <classShapeMoniker Id="5a6d6f0d-6fa7-487d-812d-d5570450ced5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5 : 2.66753255208333); (6.125 : 2.66753255208333)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JMDataContext/SysUser/SysUser_DataImportBudgetTracking" />
+      <nodes>
+        <classShapeMoniker Id="3b63c3b7-4703-464c-a5fa-08cfa588a3e8" />
+        <classShapeMoniker Id="5a6d6f0d-6fa7-487d-812d-d5570450ced5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4a2554d4-3082-4047-a8a4-3aebf03fcf86" absoluteBounds="2.875, 5, 2, 2.4600651041666666">
+      <DataClassMoniker Name="/JMDataContext/WeeklyReportInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f5f933a-fbe3-4fd5-856e-8e3cd464869f" absoluteBounds="2.8899999999999997, 5.46, 1.9700000000000002, 1.9000651041666665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.09375 : 4.37282552083333); (4.09375 : 5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JMDataContext/SysUser/SysUser_WeeklyReportInfo" />
+      <nodes>
+        <classShapeMoniker Id="3b63c3b7-4703-464c-a5fa-08cfa588a3e8" />
+        <classShapeMoniker Id="4a2554d4-3082-4047-a8a4-3aebf03fcf86" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="79bd578f-5a82-444e-9f90-c5c1c38a7566" absoluteBounds="0.625, 2.75, 2, 1.6169661458333331">
+      <DataClassMoniker Name="/JMDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50ba6732-2142-4b93-aced-2a3d312519c4" absoluteBounds="0.63999999999999968, 3.21, 1.9700000000000002, 1.0569661458333333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 3.55848307291667); (2.625 : 3.55848307291667)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/JMDataContext/SysUser/SysUser_Role" />
+      <nodes>
+        <classShapeMoniker Id="3b63c3b7-4703-464c-a5fa-08cfa588a3e8" />
+        <classShapeMoniker Id="79bd578f-5a82-444e-9f90-c5c1c38a7566" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

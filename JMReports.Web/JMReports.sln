@@ -1,0 +1,179 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{2490A8DE-9517-4F65-84E3-1A5BB4200495}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{881330E3-35DA-44FF-8DF1-FEF4AFB046AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{BD65333C-5F42-4916-8FC2-AD312DD910B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{D94AECEB-9223-4257-950C-8D873B9EAE13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMReports.DAL", "DAL\JMReports.DAL\JMReports.DAL.csproj", "{7A776C42-6893-4CA0-AD95-C6752D066B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMReports.Business", "Business\JMReports.Business\JMReports.Business.csproj", "{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMReports.Entities", "Entities\JMReports.Entities\JMReports.Entities.csproj", "{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ED8C6657-0165-4417-A32C-1F7CB9034CE5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMReports.WebApp", "Presentation\JMReports.WebApp\JMReports.WebApp.csproj", "{F0F188BC-F5DB-49E5-9488-2BAAE727414F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A3D05009-C725-4326-BC6B-10CD98B817CA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Data\酒店数据导入_上海君悦.xls = ..\Data\酒店数据导入_上海君悦.xls
+		..\Data\酒店数据导入_崇明凯悦.xls = ..\Data\酒店数据导入_崇明凯悦.xls
+		..\Data\酒店数据导入_深圳万豪.xls = ..\Data\酒店数据导入_深圳万豪.xls
+		..\Data\酒店数据导入_预算_上海君悦.xls = ..\Data\酒店数据导入_预算_上海君悦.xls
+		..\Data\酒店数据导入_预算_崇明凯悦.xls = ..\Data\酒店数据导入_预算_崇明凯悦.xls
+		..\Data\酒店数据导入_预算_深圳万豪.xls = ..\Data\酒店数据导入_预算_深圳万豪.xls
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqToSql", "LinqToSql", "{6BF22308-0956-46F9-907C-AE994D9B8994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMReports.LinqToSql", "JMReports.LinqToSql\JMReports.LinqToSql.csproj", "{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsService", "WindowsService", "{0DCEA447-7A14-4E0E-98AB-2958AD70FD49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMWindowsService", "JMWindowsService\JMWindowsService.csproj", "{2D7BDF05-A808-4EED-9540-E47967F925BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "WindowsService\ConsoleApplication1\ConsoleApplication1.csproj", "{EBA894D6-DD86-420A-9DCF-2121A2810BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMReports.BusinessLib", "BusinessLib\JMReports.BusinessLib.csproj", "{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://upzone.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Business\\JMReports.Business\\JMReports.Business.csproj
+		SccProjectTopLevelParentUniqueName1 = JMReports.sln
+		SccProjectName1 = Business/JMReports.Business
+		SccLocalPath1 = Business\\JMReports.Business
+		SccProjectUniqueName2 = DAL\\JMReports.DAL\\JMReports.DAL.csproj
+		SccProjectTopLevelParentUniqueName2 = JMReports.sln
+		SccProjectName2 = DAL/JMReports.DAL
+		SccLocalPath2 = DAL\\JMReports.DAL
+		SccProjectUniqueName3 = Entities\\JMReports.Entities\\JMReports.Entities.csproj
+		SccProjectTopLevelParentUniqueName3 = JMReports.sln
+		SccProjectName3 = Entities/JMReports.Entities
+		SccLocalPath3 = Entities\\JMReports.Entities
+		SccProjectUniqueName4 = Presentation\\JMReports.WebApp\\JMReports.WebApp.csproj
+		SccProjectTopLevelParentUniqueName4 = JMReports.sln
+		SccProjectName4 = Presentation/JMReports.WebApp
+		SccLocalPath4 = Presentation\\JMReports.WebApp
+		SccProjectUniqueName5 = JMReports.LinqToSql\\JMReports.LinqToSql.csproj
+		SccProjectTopLevelParentUniqueName5 = JMReports.sln
+		SccProjectName5 = JMReports.LinqToSql
+		SccLocalPath5 = JMReports.LinqToSql
+		SccProjectUniqueName6 = JMWindowsService\\JMWindowsService.csproj
+		SccProjectTopLevelParentUniqueName6 = JMReports.sln
+		SccProjectName6 = JMWindowsService
+		SccLocalPath6 = JMWindowsService
+		SccProjectUniqueName7 = WindowsService\\ConsoleApplication1\\ConsoleApplication1.csproj
+		SccProjectTopLevelParentUniqueName7 = JMReports.sln
+		SccProjectName7 = WindowsService/ConsoleApplication1
+		SccLocalPath7 = WindowsService\\ConsoleApplication1
+		SccProjectUniqueName8 = BusinessLib\\JMReports.BusinessLib.csproj
+		SccProjectTopLevelParentUniqueName8 = JMReports.sln
+		SccProjectName8 = BusinessLib
+		SccLocalPath8 = BusinessLib
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A776C42-6893-4CA0-AD95-C6752D066B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7BDF05-A808-4EED-9540-E47967F925BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A776C42-6893-4CA0-AD95-C6752D066B90} = {D94AECEB-9223-4257-950C-8D873B9EAE13}
+		{B39AB7CD-2A31-4923-89AD-3550DD9EE00C} = {2490A8DE-9517-4F65-84E3-1A5BB4200495}
+		{A8EB2859-80BE-44AB-A4F7-90CE7A21C498} = {BD65333C-5F42-4916-8FC2-AD312DD910B6}
+		{F0F188BC-F5DB-49E5-9488-2BAAE727414F} = {881330E3-35DA-44FF-8DF1-FEF4AFB046AB}
+		{D7C5E473-D0CB-45B0-960A-4428A35FFCCD} = {6BF22308-0956-46F9-907C-AE994D9B8994}
+		{2D7BDF05-A808-4EED-9540-E47967F925BD} = {0DCEA447-7A14-4E0E-98AB-2958AD70FD49}
+		{EBA894D6-DD86-420A-9DCF-2121A2810BFC} = {0DCEA447-7A14-4E0E-98AB-2958AD70FD49}
+		{985F0356-9ABC-474D-BB09-3AF4BF2BF07C} = {0DCEA447-7A14-4E0E-98AB-2958AD70FD49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

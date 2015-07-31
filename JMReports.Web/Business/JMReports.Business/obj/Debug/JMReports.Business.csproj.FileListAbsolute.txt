@@ -1,0 +1,5 @@
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\bin\JMReports.Business.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\bin\JMReports.Business.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Business\JMReports.Business\obj\Debug\JMReports.Business.csprojResolveAssemblyReference.cache
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Business\JMReports.Business\obj\Debug\JMReports.Business.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\Business\JMReports.Business\obj\Debug\JMReports.Business.pdb

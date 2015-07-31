@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "JMReports.ReportingService", "JMReports.ReportingService\JMReports.ReportingService.rptproj", "{54AE5E88-D3ED-4E7B-9888-D87334608575}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.Debug|Default.ActiveCfg = Debug
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.Debug|Default.Build.0 = DebugLocal
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.Debug|Default.Deploy.0 = DebugLocal
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.DebugLocal|Default.Build.0 = DebugLocal
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.Release|Default.ActiveCfg = Release
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.Release|Default.Build.0 = Release
+		{54AE5E88-D3ED-4E7B-9888-D87334608575}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

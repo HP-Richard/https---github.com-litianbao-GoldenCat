@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Repository" Class="JMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="ConnectionString" ConnectionString="Data Source=(local);Initial Catalog=Repository;Persist Security Info=True;User ID=sa;Password=123456" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SysUser" Member="SysUser">
+    <Type Name="SysUser">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Psd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="SysUser_DataImportTracking" Member="DataImportTracking" ThisKey="Id" OtherKey="OperatorUserId" Type="DataImportTracking" />
+      <Association Name="SysUser_DataImportBudgetTracking" Member="DataImportBudgetTracking" ThisKey="Id" OtherKey="OperatorUserId" Type="DataImportBudgetTracking" />
+      <Association Name="SysUser_WeeklyReportInfo" Member="WeeklyReportInfo" ThisKey="Id" OtherKey="CreateUser" Type="WeeklyReportInfo" />
+      <Association Name="SysUser_Role" Member="Role" ThisKey="RoleId" OtherKey="Id" Type="Role" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hotel" Member="Hotel">
+    <Type Name="Hotel">
+      <Column Name="HotelId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ChineseName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BranchName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ManagementGroupName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Brand" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="OpenDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="RoomCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RestaurantsCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BarsCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BanquetHallArea" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="SpaArea" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="FinanceSystem" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Hotel_ImportCompletedEmailNoticeStatus" Member="ImportCompletedEmailNoticeStatus" ThisKey="HotelId" OtherKey="HotelId" Type="ImportCompletedEmailNoticeStatus" />
+      <Association Name="Hotel_DataImportTracking" Member="DataImportTracking" ThisKey="HotelId" OtherKey="HotelId" Type="DataImportTracking" />
+      <Association Name="Hotel_DataImportBudgetTracking" Member="DataImportBudgetTracking" ThisKey="HotelId" OtherKey="HotelId" Type="DataImportBudgetTracking" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ImportReport" Member="ImportReport">
+    <Type Name="ImportReport">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ImportReportName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Kind" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ImportCompletedEmailNoticeStatus" Member="ImportCompletedEmailNoticeStatus">
+    <Type Name="ImportCompletedEmailNoticeStatus">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Kind" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HotelId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YearCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonthCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonthDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EmailSendStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ErrorMessage" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="EmailSendTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Hotel_ImportCompletedEmailNoticeStatus" Member="Hotel" ThisKey="HotelId" OtherKey="HotelId" Type="Hotel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DataImportTracking" Member="DataImportTracking">
+    <Type Name="DataImportTracking">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="YearCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonthCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonthDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HotelId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="InputTableName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsSuccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SuccessRecordNum" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OperatorUserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OperatorTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Hotel_DataImportTracking" Member="Hotel" ThisKey="HotelId" OtherKey="HotelId" Type="Hotel" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SysUser_DataImportTracking" Member="SysUser" ThisKey="OperatorUserId" OtherKey="Id" Type="SysUser" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DataImportBudgetTracking" Member="DataImportBudgetTracking">
+    <Type Name="DataImportBudgetTracking">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="YearCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonthDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HotelId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="InputTableName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsSuccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SuccessRecordNum" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OperatorUserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OperatorTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Hotel_DataImportBudgetTracking" Member="Hotel" ThisKey="HotelId" OtherKey="HotelId" Type="Hotel" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SysUser_DataImportBudgetTracking" Member="SysUser" ThisKey="OperatorUserId" OtherKey="Id" Type="SysUser" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WeeklyReportInfo" Member="WeeklyReportInfo">
+    <Type Name="WeeklyReportInfo">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Context1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Context2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Context3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Context4" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Context5" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ApproveUsers" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreateUser" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="SysUser_WeeklyReportInfo" Member="SysUser" ThisKey="CreateUser" OtherKey="Id" Type="SysUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Role" Member="Role">
+    <Type Name="Role">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="SysUser_Role" Member="SysUser" ThisKey="Id" OtherKey="RoleId" Type="SysUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

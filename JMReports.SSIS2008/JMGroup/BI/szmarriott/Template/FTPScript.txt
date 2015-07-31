@@ -1,0 +1,17 @@
+# Automatically abort script on errors
+option batch abort
+# Disable overwrite confirmations that conflict with the previous
+option confirm off
+# Connect using a password
+# open sftp://user:password@example.com/ -hostkey="ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
+# Connect
+# Connect as a different user
+open ftp://shhyatt:shhyatt@180.168.37.135
+# Change the remote directory
+cd /shhyatt/in
+# Upload the file to current working directory
+put G:\JMGroup\BI\out\gl06.cs_
+# Disconnect
+close
+# Exit WinSCP
+exit

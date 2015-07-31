@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>JMDataSource</DataSourceReference>
+      <CommandText>select Combination, OnYear, OnMonth, HotelId
+from RoomCompete 
+where HotelId=1 and OnYear =2015 and OnMonth=4 group by Combination, OnYear, OnMonth, HotelId</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Combination">
+        <DataField>Combination</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OnYear">
+        <DataField>OnYear</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OnMonth">
+        <DataField>OnMonth</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="HotelId">
+        <DataField>HotelId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\pub\JMProject0919</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin.Master">
+      <publishTime>09/03/2014 11:14:15</publishTime>
+    </File>
+    <File Include="BanquetMarket/BanquetMarketReport.aspx">
+      <publishTime>09/16/2014 07:38:37</publishTime>
+    </File>
+    <File Include="bin/JMReports.Business.dll">
+      <publishTime>09/19/2014 11:35:15</publishTime>
+    </File>
+    <File Include="bin/JMReports.Data.dll">
+      <publishTime>09/19/2014 11:35:15</publishTime>
+    </File>
+    <File Include="bin/JMReports.Entities.dll">
+      <publishTime>09/19/2014 11:32:55</publishTime>
+    </File>
+    <File Include="bin/JMReports.WebApp.dll">
+      <publishTime>09/19/2014 11:35:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>09/15/2014 21:14:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>09/15/2014 21:14:03</publishTime>
+    </File>
+    <File Include="DailyReport/frmDailyReport.aspx">
+      <publishTime>09/17/2014 15:16:36</publishTime>
+    </File>
+    <File Include="Datasets/DataSets.xsc">
+      <publishTime>09/19/2014 11:00:40</publishTime>
+    </File>
+    <File Include="Datasets/DataSets.xss">
+      <publishTime>09/19/2014 11:00:40</publishTime>
+    </File>
+    <File Include="Forecast/ForecastRpt.aspx">
+      <publishTime>09/19/2014 11:07:58</publishTime>
+    </File>
+    <File Include="HotelWhole/HotelWholeReport.aspx">
+      <publishTime>09/17/2014 16:43:03</publishTime>
+    </File>
+    <File Include="images/arrow1.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/arrow2.png">
+      <publishTime>08/18/2014 14:23:27</publishTime>
+    </File>
+    <File Include="images/a_03.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/back.png">
+      <publishTime>09/16/2014 14:44:56</publishTime>
+    </File>
+    <File Include="images/background.png">
+      <publishTime>08/18/2014 14:23:27</publishTime>
+    </File>
+    <File Include="images/blue1.png">
+      <publishTime>09/16/2014 14:56:40</publishTime>
+    </File>
+    <File Include="images/blue2.png">
+      <publishTime>09/16/2014 14:32:33</publishTime>
+    </File>
+    <File Include="images/btn_login.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/b_04.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/down_03.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/green1.png">
+      <publishTime>09/16/2014 14:57:23</publishTime>
+    </File>
+    <File Include="images/green2.png">
+      <publishTime>09/16/2014 14:29:45</publishTime>
+    </File>
+    <File Include="images/line1.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/line2.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/line_03.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/login.jpg">
+      <publishTime>08/18/2014 14:23:27</publishTime>
+    </File>
+    <File Include="images/red1.png">
+      <publishTime>09/16/2014 14:57:47</publishTime>
+    </File>
+    <File Include="images/red2.png">
+      <publishTime>09/16/2014 14:33:39</publishTime>
+    </File>
+    <File Include="images/right-back_02.png">
+      <publishTime>09/05/2014 16:21:24</publishTime>
+    </File>
+    <File Include="images/right-back_03.png">
+      <publishTime>09/05/2014 15:07:40</publishTime>
+    </File>
+    <File Include="images/top.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/topa.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/up_06.png">
+      <publishTime>08/18/2014 14:23:26</publishTime>
+    </File>
+    <File Include="images/yellow1.png">
+      <publishTime>09/16/2014 14:57:01</publishTime>
+    </File>
+    <File Include="images/yellow2.png">
+      <publishTime>09/16/2014 14:31:25</publishTime>
+    </File>
+    <File Include="Import/DataImport.aspx">
+      <publishTime>09/18/2014 16:22:40</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>09/02/2014 16:20:58</publishTime>
+    </File>
+    <File Include="LeftTree.aspx">
+      <publishTime>09/16/2014 11:12:55</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>09/16/2014 10:39:18</publishTime>
+    </File>
+    <File Include="Operation/OperationReport.aspx">
+      <publishTime>09/05/2014 06:38:03</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/19/2014 11:35:19</publishTime>
+    </File>
+    <File Include="Report.Master">
+      <publishTime>09/04/2014 19:55:15</publishTime>
+    </File>
+    <File Include="Restaurant/frmRestaurantEfficiency.aspx">
+      <publishTime>09/18/2014 12:00:35</publishTime>
+    </File>
+    <File Include="Restaurant/frmRestaurantMain.aspx">
+      <publishTime>09/18/2014 08:20:13</publishTime>
+    </File>
+    <File Include="Restaurant/frmRestaurantVar.aspx">
+      <publishTime>09/18/2014 00:36:20</publishTime>
+    </File>
+    <File Include="Role/RoleReport.aspx">
+      <publishTime>09/14/2014 06:39:22</publishTime>
+    </File>
+    <File Include="RoomCompete/RoomCompete.aspx">
+      <publishTime>09/19/2014 06:31:21</publishTime>
+    </File>
+    <File Include="RoomMarket/RoomMarketReport.aspx">
+      <publishTime>09/05/2014 07:14:12</publishTime>
+    </File>
+    <File Include="RoomMarket/RoomMarketReport2.aspx">
+      <publishTime>09/11/2014 11:32:56</publishTime>
+    </File>
+    <File Include="RoomSales/RoomSalesReport.aspx">
+      <publishTime>09/11/2014 15:21:28</publishTime>
+    </File>
+    <File Include="Scripts/common.js">
+      <publishTime>08/18/2014 14:23:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>08/18/2014 14:23:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>08/18/2014 14:23:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.js">
+      <publishTime>08/18/2014 14:23:27</publishTime>
+    </File>
+    <File Include="Special/SpecialReport.aspx">
+      <publishTime>09/17/2014 15:17:34</publishTime>
+    </File>
+    <File Include="Styles/common.css">
+      <publishTime>09/13/2014 15:33:57</publishTime>
+    </File>
+    <File Include="Styles/login.css">
+      <publishTime>08/20/2014 13:14:29</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>09/01/2014 16:18:19</publishTime>
+    </File>
+    <File Include="Styles/table.css">
+      <publishTime>09/18/2014 15:40:30</publishTime>
+    </File>
+    <File Include="Styles/welcome.css">
+      <publishTime>09/05/2014 16:00:33</publishTime>
+    </File>
+    <File Include="top.aspx">
+      <publishTime>09/16/2014 10:47:53</publishTime>
+    </File>
+    <File Include="Unallocate/UnallocateReport.aspx">
+      <publishTime>09/15/2014 09:56:06</publishTime>
+    </File>
+    <File Include="User/UserManager.aspx">
+      <publishTime>09/03/2014 17:44:12</publishTime>
+    </File>
+    <File Include="ValidateCode.aspx">
+      <publishTime>09/02/2014 16:17:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/19/2014 11:35:18</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>09/18/2014 15:33:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

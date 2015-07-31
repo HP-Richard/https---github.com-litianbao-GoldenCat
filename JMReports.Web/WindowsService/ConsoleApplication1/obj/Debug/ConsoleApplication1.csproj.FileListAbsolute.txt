@@ -1,0 +1,11 @@
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\EmailConfig.ini
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\JMReports.BusinessLib.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\JMReports.LinqToSql.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\JMReports.BusinessLib.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\bin\Debug\JMReports.LinqToSql.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\WindowsService\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

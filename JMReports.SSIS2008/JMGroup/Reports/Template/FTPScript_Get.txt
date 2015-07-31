@@ -1,0 +1,22 @@
+# Automatically abort script on errors
+option batch abort
+# Disable overwrite confirmations that conflict with the previous
+option confirm off
+# Connect using a password
+# open sftp://user:password@example.com/ -hostkey="ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
+# Connect
+# Connect as a different user
+open ftp://shhyatt:shhyatt@180.168.37.135
+# Change the remote directory
+cd /shhyatt/in
+# Force binary mode transfer
+option transfer binary
+# Download file abc.txt  to the local directory d:\abc\  : "get abc.txt d:\abc\" 
+get gl06.cs_ G:\JMGroup\Reports\in\gl06.cs_
+# If you want to rename/remove the remote filename after uploading:
+#mv %3% aa.txt
+#rm gl06.cs_
+# Disconnect
+close
+# Exit WinSCP
+exit

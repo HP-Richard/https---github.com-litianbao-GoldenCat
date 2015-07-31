@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>JMDataSource</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@hotelid">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@year">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@month">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>select R.ItemId,R.HotelId,IsNull(I.AccountType,R.ItemEName) AS ItemEName ,Isnull(I.AccountType,R.ItemEName) AS ItemCName,R.KPI,R.MonthActual,R.LastMonthActual,
+R.QoQ,R.YearActual,R.QoQYear,
+R.YoYYear, R.TopYoYYear,R.OnYear,R.OnMonth
+from dbo.RoomSales R left join ReportItem I on R.ItemId = i.ID
+where R.HotelId=@hotelid and  R.OnYear =@year and R.OnMonth=@month</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ItemId">
+        <DataField>ItemId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="HotelId">
+        <DataField>HotelId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ItemEName">
+        <DataField>ItemEName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ItemCName">
+        <DataField>ItemCName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="KPI">
+        <DataField>KPI</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MonthActual">
+        <DataField>MonthActual</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="LastMonthActual">
+        <DataField>LastMonthActual</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="QoQ">
+        <DataField>QoQ</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YearActual">
+        <DataField>YearActual</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="QoQYear">
+        <DataField>QoQYear</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YoYYear">
+        <DataField>YoYYear</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="TopYoYYear">
+        <DataField>TopYoYYear</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="OnYear">
+        <DataField>OnYear</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="OnMonth">
+        <DataField>OnMonth</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

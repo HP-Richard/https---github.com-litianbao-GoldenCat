@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JMDataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=172.16.209.76;Initial Catalog=Repository</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>fd400eaf-c9e4-44c6-b804-a90395e0468b</DataSourceID>
+</RptDataSource>

@@ -1,0 +1,14 @@
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\sertool.exe
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\EmailConfig.ini
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\JMWindowsService.exe.config
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\JMWindowsService.exe
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\JMWindowsService.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\JMReports.BusinessLib.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\JMReports.LinqToSql.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\JMReports.BusinessLib.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\bin\Debug\JMReports.LinqToSql.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\obj\Debug\JMWindowsService.csprojResolveAssemblyReference.cache
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\obj\Debug\JMWindowsService.JMService.resources
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\obj\Debug\JMWindowsService.csproj.GenerateResource.Cache
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\obj\Debug\JMWindowsService.exe
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMWindowsService\obj\Debug\JMWindowsService.pdb

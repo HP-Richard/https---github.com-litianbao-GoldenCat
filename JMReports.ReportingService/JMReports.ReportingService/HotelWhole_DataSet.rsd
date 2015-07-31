@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>JMDataSource</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@reportid">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@year">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@month">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>SELECT [ReportId]
+                      ,[ReportName]
+                      ,[ChineseName]
+                      ,[HotelId]
+                      ,[Sequence] as Orderid
+                      ,[ItemId]
+	      ,[MockName1] AS Item1
+	      ,[MockName1] AS Item2
+                      ,[AccountType]
+                      ,[Department]
+                      ,[yearCode]
+                      ,[MonthCode]
+                      ,[本月实际] as MonthActual
+                      ,[本月预算] as MonthBudget
+                      ,[本月完成比例] as ProcessPercent
+                      ,[上月实际] as LastMonthActual
+                      ,[本月环比增减] as QoQ
+                      ,[上年本月同期] as LastYear
+                      ,[本月同比增减] as YoY
+                      ,[本年实际] as YearAct
+                      ,[同期预算] as SameYearBudget
+                      ,[本年完成比例] as YearPercent
+                      ,[上年本年累计同期] as QoQYear
+                      ,[本年同比增减] as YoYYear
+                      ,[全年预算] as YearBudget
+                      ,[全年完成比例] as YearBudgetPercent
+                  FROM [Repository].[dbo].[vwActOverview]
+                  where ReportId = @reportid and yearCode=@year and monthCode=@month </CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ReportId">
+        <DataField>ReportId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ReportName">
+        <DataField>ReportName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ChineseName">
+        <DataField>ChineseName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="HotelId">
+        <DataField>HotelId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Orderid">
+        <DataField>Orderid</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="ItemId">
+        <DataField>ItemId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Item1">
+        <DataField>Item1</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="AccountType">
+        <DataField>AccountType</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Item2">
+        <DataField>Item2</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Department">
+        <DataField>Department</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="yearCode">
+        <DataField>yearCode</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MonthCode">
+        <DataField>MonthCode</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MonthActual">
+        <DataField>MonthActual</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="MonthBudget">
+        <DataField>MonthBudget</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ProcessPercent">
+        <DataField>ProcessPercent</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="LastMonthActual">
+        <DataField>LastMonthActual</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="QoQ">
+        <DataField>QoQ</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="LastYear">
+        <DataField>LastYear</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YoY">
+        <DataField>YoY</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YearAct">
+        <DataField>YearAct</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="SameYearBudget">
+        <DataField>SameYearBudget</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YearPercent">
+        <DataField>YearPercent</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="QoQYear">
+        <DataField>QoQYear</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YoYYear">
+        <DataField>YoYYear</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YearBudget">
+        <DataField>YearBudget</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="YearBudgetPercent">
+        <DataField>YearBudgetPercent</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

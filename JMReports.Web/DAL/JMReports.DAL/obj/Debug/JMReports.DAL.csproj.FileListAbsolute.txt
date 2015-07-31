@@ -1,0 +1,6 @@
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\bin\JMReports.Data.dll.config
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\bin\JMReports.Data.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\bin\JMReports.Data.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\DAL\JMReports.DAL\obj\Debug\JMReports.DAL.csprojResolveAssemblyReference.cache
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\DAL\JMReports.DAL\obj\Debug\JMReports.Data.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\DAL\JMReports.DAL\obj\Debug\JMReports.Data.pdb

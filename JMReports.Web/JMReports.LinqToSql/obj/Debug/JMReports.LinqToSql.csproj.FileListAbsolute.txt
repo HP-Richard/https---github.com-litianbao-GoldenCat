@@ -1,0 +1,5 @@
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMReports.LinqToSql\bin\Debug\JMReports.LinqToSql.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMReports.LinqToSql\bin\Debug\JMReports.LinqToSql.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMReports.LinqToSql\obj\Debug\JMReports.LinqToSql.dll
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMReports.LinqToSql\obj\Debug\JMReports.LinqToSql.pdb
+C:\Project\jinmao\CODE_PHASE2\Jinmao88\JMReports.Web\JMReports.LinqToSql\obj\Debug\JMReports.LinqToSql.csprojResolveAssemblyReference.cache

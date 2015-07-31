@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="JINMAO_GROUP\jmadmin" GeneratedFromPackageName="Repository_ImportMonthlyAccountingFinanceCSVforFTP1" GeneratedFromPackageID="{8254D15A-2BB3-45D4-9BDD-E111802706BE}" GeneratedDate="2014/10/14 10:46:27"/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.LogProviders[SSIS log provider for SQL Server].Properties[ConfigString]" ValueType="String">
+    <ConfiguredValue>JMGroup</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP Connection Manager].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>180.168.37.135</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP Connection Manager].Properties[ServerPassword]" ValueType="String">
+    <ConfiguredValue>shhyatt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP Connection Manager].Properties[ServerUserName]" ValueType="String">
+    <ConfiguredValue>shhyatt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Hotel].Properties[InitialCatalog]" ValueType="String">
+    <ConfiguredValue>Staging_Hotel</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Hotel].Properties[Password]" ValueType="String">
+    <ConfiguredValue>jmadmin</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Hotel].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>172.16.209.75</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Hotel].Properties[UserName]" ValueType="String">
+    <ConfiguredValue>sa</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[JMGroup].Properties[InitialCatalog]" ValueType="String">
+    <ConfiguredValue>jmgroup</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[JMGroup].Properties[Password]" ValueType="String">
+    <ConfiguredValue>jmadmin</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[JMGroup].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>172.16.209.75</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[JMGroup].Properties[UserName]" ValueType="String">
+    <ConfiguredValue>sa</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Repository].Properties[InitialCatalog]" ValueType="String">
+    <ConfiguredValue>Repository</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Repository].Properties[Password]" ValueType="String">
+    <ConfiguredValue>jmadmin</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Repository].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>172.16.209.75</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Repository].Properties[UserName]" ValueType="String">
+    <ConfiguredValue>sa</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>
